@@ -7,8 +7,6 @@ plugins {
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 
-// for fix error
-java.runtime.version=11
 
 // to be jdk 1.8 in heroku
 //sourceCompatibility = '16'
