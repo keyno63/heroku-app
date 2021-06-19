@@ -14,9 +14,4 @@ public class HelloController {
     public String hello() {
         return "hello world";
     }
-
-    @GetMapping("/add_path")
-    public String addPath() {
-        return "nothing";
-    }
 }
