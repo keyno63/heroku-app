@@ -5,6 +5,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
+    @GetMapping("/")
+    public String top() {
+        return "this is top";
+    }
 
     @GetMapping("/hello")
     public String hello() {
