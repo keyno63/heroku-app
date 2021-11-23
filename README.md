@@ -48,3 +48,8 @@ stop
 ```shell
 heroku stop -s<app_name>
 ```
+
+## License
+
+This repository is licensed under [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0) License.  
+See [License](./LICENSE) file.
